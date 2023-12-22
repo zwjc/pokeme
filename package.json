@@ -1,0 +1,44 @@
+{
+  "name": "npm_tutorial",
+  "version": "2.0.0",
+  "description": "PokeMe",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "deploy": "vite deploy"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^13.4.0",
+    "@vitejs/plugin-vue": "4.0.0",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "msw": "^1.2.2",
+    "vite": "^4.4.11",
+    "vite-plugin-gh-pages": "^0.4.1",
+    "vite-plugin-html-template": "^0.1.0",
+    "vite-plugin-node-polyfills": "^0.7.0",
+    "vite-plugin-solid": "^2.5.0",
+    "vite-plugin-virtual-html": "1.0.2"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "axios": "^1.6.2",
+    "firebase": "^9.23.0",
+    "framer-motion": "^10.16.16",
+    "mobx": "^6.8.0",
+    "mobx-react-lite": "^3.4.2",
+    "openai": "^4.20.1",
+    "parse-git-config": "^3.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-native-scrollable-tab-view": "^1.0.0",
+    "react-router-dom": "^6.21.0",
+    "solid-js": "^1.6.10",
+    "terser": "5.16.5"
+  }
+}
